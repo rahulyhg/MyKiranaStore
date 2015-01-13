@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+.div_loginform
+{
+	border:1px solid black;
+	width:100%;
+	text-align:center;
+	padding-top:200px;
+	height:500px;	
+}
+.div_admin_left_panel
+{
+	//border:1px solid black;
+	width:200px;
+	float:left;
+	min-height:500px;
+}
+.div_admin_left_panel_category
+{
+	float:left;
+	padding:20px;
+	border-bottom:1px solid gray;
+	border-radius:5px;
+	width:160px;
+	line-height:25px;
+	font-size:20px;
+	color:gray;
+	
+}
+.div_admin_left_panel_category_label
+{
+	cursor:pointer;	
+}
+.div_admin_right_panel
+{
+	//border:1px solid black;
+	height:auto;
+	width:835px;
+	float:left;
+}
+.div_admin_right_panel_heading
+{
+	border-bottom:1px dotted gray;
+	height:30px;
+	font-size:25px;
+	line-height:30px;
+	text-transform:uppercase;
+	color:gray;
+	padding-left:20px;	
+}
+
+.div_admin_right_panel_container
+{
+	height: auto;
+	padding: 10px;
+	float: left;	
+}
+
+.div_admin_right_panel_container input[type="text"],.admin_right_panel_container>select
+{
+height: 30px;
+width: 500px;
+background: #f9f9f9;
+border: #e6e6e6 solid 1px;
+border-radius: 5px;
+line-height: 30px;
+font-size: 18px;
+margin-bottom: 20px;
+color: gray;
+}
+
+.div_admin_right_panel_container input[type="button"]
+{
+font-size: 18px;
+padding: 5px;
+color: white;
+background: green;
+height: 30px;
+width: 140px;
+border: #e6e6e6 solid 1px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* CSS for mapping category to sub category*/
+.create_menu_category
+{
+	float:left;
+	width:300px;
+	//border:1px solid black;	
+	padding:10px;
+}
+.create_menu_subcategory
+{
+	float:left;
+	width:340px;
+	//border:1px solid black;	
+	padding:10px;
+}
+.create_menu_category>select ,.create_menu_subcategory>select
+{	
+	height: 30px;
+	width: 220px;
+	background: #f9f9f9;
+	border: #e6e6e6 solid 1px;
+	border-radius: 5px;
+	line-height: 30px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	color: gray;
+}
+
+.create_menu_map
+{
+	float:left;
+	width:100px;
+	padding:10px;
+	//border:1px solid black;	
+}
+
+.add_item_description
+{
+	float:left;
+	width:580px;
+	height:60px;	
+}
+
+.add_item_price
+{
+	float:left;
+	width:190px;	
+	height:60px;	
+}
+
+.add_item_unit
+{
+	float:left;
+	width:135px;	
+	height:60px;	
+}
+
+.add_item_minquantity
+{
+	float:left;
+	width:270px;
+	height:60px;	
+}
+.add_item_image
+{
+	float:left;
+	padding-left:5px;
+	width:340px;
+	height:60px;	
+}
+.add_item_button
+{
+	float:left;
+	width:200px;
+	height:60px;	
+}
+.add_item_button>input[type="button"]
+{
+	font-size: 18px;
+	padding: 5px;
+	color: white;
+	background: green;
+	height: 30px;
+	width: 140px;
+	border: #e6e6e6 solid 1px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.itemmapping_category
+{
+	float:left;
+	width:300px;
+	//border:1px solid black;	
+	padding:10px;
+}
+
+.itemmapping_subcategory
+{
+	float:left;
+	width:450px;
+	//border:1px solid black;	
+	padding:10px;
+}
+
+.itemmapping_item
+{
+	float:left;
+	width:300px;
+	//border:1px solid black;	
+	padding:10px;
+}
+
+.itemmapping_map
+{
+	float:left;
+	width:100px;
+	padding:10px;
+	//border:1px solid black;	
+}
+
+
+.itemmapping_category>select,.itemmapping_subcategory>select,.itemmapping_item>select
+{
+	height: 30px;
+	width: 220px;
+	background: #f9f9f9;
+	border: #e6e6e6 solid 1px;
+	border-radius: 5px;
+	line-height: 30px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	color: gray;	
+}

@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* css for address container if some stored address exist*/
+.addressform_address_container	
+{
+	width:900px;
+	height:335px;
+	//border:1px solid red;
+	padding:20px 20px 20px 120px;
+	font-size: 18px;
+	text-align:center;
+	overflow:auto;
+}
+.addressform_addresses
+{
+	width:220px;
+	height:310px;
+	//background:lightgray;
+	border-radius:5px;
+	float:left;
+	margin:20px;
+	//border:1px solid black;	
+	text-align:center;
+}
+.addressform_addresses:hover
+{
+	box-shadow:10px 10px 10px gray;	
+}
+
+/* css for particular 1 address box..*/
+.addressform_address_name
+{
+	text-align:center;
+	font-size:20px;
+	overflow:hidden;
+	max-height:30px;	
+	font-weight:bold;
+}
+
+.addressform_address_address
+{
+	text-align:left;
+	font-size:18px;
+	color:gray;
+	overflow:auto;
+	height:60px;
+	min-height:60px;
+	max-height:50px;	
+	//border:2px solid orange;
+}
+.addressform_addresses span
+{
+	float:left;
+	text-align:left;
+	font-size:18px;
+	color:gray;
+	overflow:hidden;
+	height:25px;
+	line-height:25px;
+	max-height:30px;
+	//border:1px solid black;
+}
+.addressform_address_city,.addressform_address_state
+{
+	text-align:left;
+	font-size:18px;
+	color:gray;
+	overflow:hidden;
+	height:25px;
+	line-height:25px;
+	max-height:30px;
+	//border:1px solid black;
+}
+
+.addressform_address_pin,.addressform_address_mobile
+{
+	text-align:left;
+	font-size:18px;
+	color:gray;
+	overflow:hidden;
+	height:25px;
+	line-height:25px;
+	max-height:30px;
+	//border:1px solid black;
+	//border:2px solid red;
+}
+
+.addressform_address_deliverhere
+{
+	width:220px;
+	height:45px;
+	max-height:45px;
+	//border:1px solid red;
+	text-align:center;
+	vertical-align:middle;
+	padding-top:8px;
+}
+
+.addressform_address_deliverhere>input
+{
+	font-size: 18px;
+	padding: 5px;
+	width: 150px;
+	height: 35px;
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+	color: white;
+	background: #C60;
+	cursor: pointer;
+}
+.addressform_address_deliverhere>input:hover
+{
+	background: green;
+}
+.addressform_address_editdelete
+{
+	width:180px;
+	height:25px;
+	text-align:center;
+	padding:0px 20px 0px 20px;
+	//border:1px solid red;	
+}
+
+/* for adding new addresss....*/
+.addressform_addnew_address
+{
+	width:1040px;
+	height:70px;
+	//border:1px solid black;
+	text-align:center;
+	vertical-align:middle;
+	padding-top:4px;
+}
+.addressform_addnew_address>input
+{
+	font-size: 18px;
+	//padding: 2px;
+	width: 175px;
+	height: 50px;
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+	color: white;
+	background: #C60;
+	cursor: pointer;
+}
+.addressform_addnew_address>input:hover
+{
+	background:green;
+}
+
+/*css for edit address form also for add new address form*/
+
+.div_address_form_shield
+{
+	display:none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: .5;
+	background: #333;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px gray;
+	width: 100%;
+	height: 100%;	
+}
+.div_addressform_edit_address_form_container
+{
+	position: fixed;
+	top: 50px;
+	left: 420px;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #333;
+	width: 500px;
+	height: 550px;
+	z-index: 10000;
+	background: white;
+	display: none;
+}
+
+.div_addressform
+{
+	width:459px;
+	height:469px;
+	text-align:center;
+	//border:1px solid green;	
+	padding:20px 20px 20px 20px;
+}
+
+.div_addressform_header
+{
+	line-height:30px;
+	height:30px;
+	text-align:center;
+	font-size:18px;	
+}
+.div_addressform_feild_label
+{
+	width:100px;
+	height:50px;
+	text-align:right;
+	padding-right:10px;
+	float:left;
+	//border:1px solid black;
+	margin-bottom:10px;
+	line-height:40px;
+		
+}        
+.div_addressform_feild_input
+{
+	width:320px;
+	height:50px;
+	float:left;
+	//border:1px solid red;
+	margin-bottom:10px;
+}	
+.div_addressform_feild_input>input,.div_addressform_feild_input>textarea
+{
+	height: 35px;
+	width: 300px;
+	background: #f9f9f9;
+	border: #e6e6e6 solid 1px;
+	border-radius: 5px;
+	line-height: 20px;
+	font-size: 16px
+}
+
+.div_addressform_feild_confirmbutton>input
+{
+	//float:left;
+	font-size: 18px;
+	border:1px solid black;
+	//padding: 2px;
+	width: 175px;
+	height: 50px;
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+	color: white;
+	background: #C60;
+	cursor: pointer;
+}
+
+.div_addressform_feild_confirmbutton>input:hover
+{
+	background:green;	
+}
+
+
+.div_addressform_edit_address_form_closebutton
+{
+	background-image: url(../Images/closeicon.png);
+	float: right;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;	
+}

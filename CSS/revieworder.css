@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.revieworder_address
+{
+	//border:5px solid black;
+	width:1039px;
+	height:auto;
+	max-height:300px;
+	min-height:150px;
+	//float:left;
+}
+
+.revieworder_address_header,.revieworder_order_header
+{
+	float:left;
+	width:1039px;
+	line-height:30px;
+	font-size:20px;
+	height:30px;
+	//border:1px solid green;
+	text-align:center;	
+	text-transform:uppercase;
+	float:left;
+}
+
+.revieworder_address_container,.revieworder_address_container span
+{
+	padding:0px 0px 0px 20px;
+	margin-top:10px;
+	//border:1px solid black;
+	line-height:25px;
+	font-size:18px;
+	color:gray;
+}
+.revieworder_address_left
+{
+	width:700px;
+	//border:1px solid black;
+	float:left;
+}
+.revieworder_address_right  /* style = "padding-right:50px;"*/
+{
+	float:left;
+	//border:4px solid yellow;
+	width:250px;
+	//height:200px;
+	padding:40px 20px 0px 0px;
+}
+
+.revieworder_address_right>input
+{
+	//padding-top:20px;
+	font-size: 18px;
+	padding5px 5px 5px 5px;
+	width: 200px;
+	height: 35px;
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+	color: white;
+	background: #C60;
+	cursor: pointer;	
+	float:right;
+}
+
+.revieworder_address_right>input:hover
+{
+	background: green;	
+}
+
+
+/* CSS for Order Part..*/
+.revieworder_order
+{
+	//border:5px solid black;
+	width:1039px;
+	float:left;
+	height:auto;
+}
+
+.revieworder_order_container
+{
+	float:left;
+	height:auto;
+	width:1039px;
+	//border:4px solid blue;	
+}
+
