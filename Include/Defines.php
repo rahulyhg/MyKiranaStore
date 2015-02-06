@@ -5,8 +5,8 @@ define('WebSiteRoot','/');
 define("ImageRootPath","/Images/");
 define("ImageRootPath_ItemImages","/Images/ItemImages/");
 */
-define('WebSiteRoot','http://localhost/Ecommerce/');
-define("ImageRootPath","/Ecommerce/Images/");
-define("ImageRootPath_ItemImages","/Ecommerce/Images/ItemImages/");
+define('WebSiteRoot','http://localhost/MyKiranaStore/');
+define("ImageRootPath","/MyKiranaStore/Images/");
+define("ImageRootPath_ItemImages","/MyKiranaStore/Images/ItemImages/");
 
 ?>
